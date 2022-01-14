@@ -5,12 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital@0;1&family=Righteous&family=Secular+One&display=swap');
 
 /* body */
+
 body{
     margin: 0;
     background-color:whitesmoke;
 }
 
 /* header part */
+
 .nav-part{
     display: flex;
     justify-content: space-around;
@@ -72,4 +74,15 @@ body{
     width: 400px;
     margin-top: 30px;
     margin-right: 100px;
+}
+
+/* logo property style */
+
+hr{
+    border: 1px solid gainsboro;
+    margin: 0px 100px;
+}
+.logo img{
+    margin: 10px 0px;
+    margin-left: 120px;
 }
