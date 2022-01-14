@@ -1,0 +1,32 @@
+/* font styleee */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+/* body */
+body{
+    margin: 0;
+    background-color:whitesmoke;
+}
+
+/* header part */
+.nav-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.topic h2{
+     font-family: 'Poppins', sans-serif;
+}
+.topic{
+    margin-top: 20px;
+}
+.menu{
+    margin-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em;
+    margin-left:20px;
+}
