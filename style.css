@@ -245,8 +245,9 @@ hr{
         grid-template-columns: repeat(1,1fr);
         width:100%;
     }
-    .topic,.menu{
+    .topic{
         text-align: center;
+        width:100%;
     }
     .menu{
         padding-right: 20px;
@@ -266,8 +267,19 @@ hr{
         width:100%;
         margin-left: 80px;
     }
-    hr,.logo{
-        display: none;
+    hr{
+        display:hidden;
+        width:100%;
+    }
+    .logo{
+        display:hidden;
+        width:100%;
+    }
+    .popular-collection{
+        width:100%;
+    }
+    .popular-h1{
+        width:100%;
     }
     .collections{
         width:100%;
@@ -285,6 +297,11 @@ hr{
         grid-template-columns: repeat(1,1fr);
         grid-gap:30px;
         margin-left: 60px;
+    }.bonus-part{
+        width:100%;
+    }
+    .foot{
+        width:100%;
     }
     
 }
