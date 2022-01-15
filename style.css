@@ -7,7 +7,7 @@
 /* body */
 
 body{
-    margin: 0;
+    margin: 0 auto;
     background-color:whitesmoke;
 }
 
@@ -239,16 +239,53 @@ hr{
 -------media query------------ */
 
 /* mobile screen */
-@media only screen and(max-width: 688px){
-      .nav-part{
-          display:grid;
-          grid-template-columns: repeat(1,1fr);
-          width: 100%;
-      }
-      .influencer-journey{
-        display: flex;
-        flex-direction: column;
+@media only screen and (max-width :576px){
+    .nav-part{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
         width:100%;
     }
+    .topic,.menu{
+        text-align: center;
+    }
+    .menu{
+        padding-right: 20px;
+    }
+    .influencer-journey{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .journey-des{
+        width:250px;
+        height: 500px;
+        padding-left:40px;
+    }
+    .journey-img{
+        height:400px;
+        width:100%;
+        margin-left: 80px;
+    }
+    hr,.logo{
+        display: none;
+    }
+    .collections{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 30px;
+    }
+    .see-more{
+        width:100%;
+        padding-left: 210px;
+    }
+    .other-collections{
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:30px;
+        margin-left: 60px;
+    }
+    
 }
 
