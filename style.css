@@ -235,3 +235,18 @@ hr{
     color: #562EFF;
 }
 
+/* ---------------------
+-------media query------------ */
+
+/* mobile screen */
+@media only screen and(max-width: 688px){
+      .nav-part{
+          display: flex;
+          flex-direction: column;
+      }
+      .influencer-journey{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
