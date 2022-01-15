@@ -75,6 +75,10 @@ body{
     margin-top: 30px;
     margin-right: 100px;
 }
+.journey-img:hover img{
+    transform:rotate(360deg);
+    transition: transform 3s ease-in-out;
+}
 
 /* logo property style */
 
@@ -103,6 +107,7 @@ hr{
 .popular-h1{
     text-align: center;
     padding-bottom: 50px;
+    color:crimson;
 }
 
 .collect{
@@ -134,4 +139,62 @@ hr{
 .collect-des p{
      margin-top:10px;
      font-size: 1.1em;
+}
+
+/* bonus part style */
+.bonus-part{
+    margin-top: 70px;
+}
+.bonus-part h1{
+    text-align: center;
+    color:crimson;
+}
+.other-collections{
+    margin-top: 70px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.other-collect{
+    height: 200px;
+    width:250px;
+    border: 1px solid white;
+    box-shadow: .5px .5px 10px gray;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.other-collect:hover .other-des{
+    display: block;
+    background-color:rgba(196, 122, 70, 0.438);
+    height: 210px;
+    width:250px;
+    cursor: pointer;
+}
+.other-img img{
+    height: 200px;
+    width:250px;
+}
+.other-collect:hover .other-img{
+    transform: scale(1.3) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+.other-des{
+    top: 0px;
+    position:absolute;
+    display:none;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.other-des h3{
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-weight: 700;
+    height: 25px;
+}
+.other-des p{
+    font-weight: 700;
+    padding-left: 10px;
 }
