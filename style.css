@@ -241,8 +241,8 @@ hr{
 /* mobile screen */
 @media only screen and(max-width: 688px){
       .nav-part{
-          display: flex;
-          flex-direction: column;
+          display:grid;
+          grid-template-columns: repeat(1,1fr);
       }
       .influencer-journey{
         display: flex;
